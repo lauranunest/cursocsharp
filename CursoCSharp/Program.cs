@@ -3,6 +3,8 @@ using System.Collections.Generic;
 
 using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturasDeControle;
+using CursoCSharp.ClassesEMetodos;
+using CursoCSharp.Colecoes;
 
 namespace CursoCSharp {
     class Program {
@@ -24,6 +26,7 @@ namespace CursoCSharp {
                 {"Operadores de Atribuição - Fundamentos", OperadoresAtribuicao.Executar},
                 {"Operadores Unários - Fundamentos", OperadoresUnarios.Executar},
                 {"Operador Ternário - Fundamentos", OperadorTernario.Executar},
+
                 // Estruturas de Controle
                 {"Estrutura If - Estruturas de Controle", EstruturaIf.Executar},
                 {"Estrutura If/Else - Estruturas de Controle", EstruturaIfElse.Executar},
@@ -35,6 +38,36 @@ namespace CursoCSharp {
                 {"Estrutura ForEach - Estruturas de Controle", EstruturaForEach.Executar},
                 {"Usando Break - Estruturas de Controle", UsandoBreak.Executar},
                 {"Usando Continue - Estruturas de Controle", UsandoContinue.Executar},
+
+                // Classes e Métodos 
+                { "Membros - Classes e Métodos", Membros.Executar},
+                { "Construtores - Classes e Métodos", Construtores.Executar},
+                { "Métodos Com Retorno - Classes e Métodos", MetodosComRetorno.Executar},
+                { "Métodos Estáticos - Classes e Métodos", MetodosEstaticos.Executar},
+                { "Atributos Estáticos - Classes e Métodos", AtributosEstaticos.Executar},
+                { "Params - Classes e Métodos", Params.Executar},
+                { "Parâmetros Nomeados - Classes e Métodos", ParametrosNomeados.Executar},
+                { "Get Set - Classes e Métodos", GetSet.Executar},
+                { "Props - Classes e Métodos", Props.Executar},
+                { "Readonly - Classes e Métodos", Readonly.Executar},
+                { "Enum - Classes e Métodos", ExemploEnum.Executar},
+                { "Struct - Classes e Métodos", ExemploStruct.Executar},
+                { "StructVsClasse - Classes e Métodos", StructVsClasse.Executar},
+                { "Valor Vs Referência - Classes e Métodos", ValorVsReferencia.Executar},
+                { "Parâmetros Por Referência - Classes e Métodos", ParametrosPorReferencia.Executar},
+                { "Parâmetros com Valor Padrão - Classes e Métodos", ParametroPadrao.Executar},
+
+                // Coleções
+                { "Array - Coleções", Colecoes.Array.Executar},
+                { "List - Coleções", ColecoesList.Executar},
+                { "Array List - Coleções", ColecoesArrayList.Executar},
+                { "Set - Coleções", ColecoesSet.Executar},
+                { "Queue - Coleções", ColecoesQueue.Executar},
+                { "Igualdade - Coleções", Igualdade.Executar},
+                { "Stack - Coleções", ColecoesStack.Executar},
+                { "Dictionary - Coleções", ColecoesDictionary.Executar},
+
+
             });
 
             central.SelecionarEExecutar();
